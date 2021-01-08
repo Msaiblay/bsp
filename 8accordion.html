@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accordion</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+	<h3 class="text-center text-danger my-5 fs-1">Accordion</h3>
+	<div class="accordion p-5" id="ParentAccordion">
+		<div class="accordion-item">
+			<h3 class="accordion-header">
+				<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Accordion1">One</button>
+			</h3>
+			<div class="accordion-collapse collapse show" id="Accordion1" data-bs-parent="#ParentAccordion">
+				<div class="accordion-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="accordion-item">
+			<div class="accordion-header">
+				<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Accordion2">
+					Two
+				</button>
+			</div>
+			<div class="accordion-collapse collapse" id="Accordion2" data-bs-parent="#ParentAccordion">
+				<div class="accordion-body">
+					<p>2Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<div class="accordion-header">
+				<button class="accordion-button" data-bs-target="#Accordion3" data-bs-toggle="collapse">
+					Three
+				</button>
+			</div>
+			<div class="accordion-collapse collapse" id="Accordion3" data-bs-parent="#ParentAccordion">
+				<div class="accordion-body">
+					<p>3Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
